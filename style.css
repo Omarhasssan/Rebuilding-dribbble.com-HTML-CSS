@@ -219,10 +219,12 @@ nav{
    padding-bottom: 1px;
 }
 .content-wrapper{
+
 	display: flex;
 	margin:0 auto;
 	flex-wrap: wrap;
 	justify-content: center;
+	
 }
 .post-container .img img{
     width: 100%;
@@ -291,6 +293,7 @@ nav{
 	display: flex;
 	flex-direction: column;
 	flex-basis: 23%;
+	flex:1;
 }
 
 .logo img{
@@ -342,6 +345,7 @@ nav{
     color: #999;
 }
 .singlegroup ul{
+	flex:1;
 	display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
@@ -381,13 +385,15 @@ nav{
 	flex:1;
 	flex-direction: column;
 }
+
 .rightgroup ul{
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
 	justify-content: space-between;
-    flex-basis: 50%;
+    //flex-basis: 50%;
+    //flex:1;
 }
 .rightgroup ul li{
 	display: flex;
@@ -465,10 +471,10 @@ nav{
 	.singlegroup ul{
 		flex-basis: 11rem;
 	}
-	.container{
-		flex: 1;
+	/*.container{
+		//flex: 1;
 		flex-grow: 0;
-	}
+	}*/
 
 }
 
